@@ -28,7 +28,8 @@ Servicii, tehnologii folosite:
 
 Descrierea aplicaţiei şi modul de utilizare:
 
-     Aplicatia este scrisa in Python si foloseste libraria Beautiful Soup ce are rolul de a analiza si extrage documente de tip HTML si XML. O alta librarie utilizata este Pandas ce am utilizat-o pentru a crea un dataframe, un tabel ce poate fi exportat drept CSV si XLSX (Excel).
+    
+  Aplicatia este scrisa in Python si foloseste libraria Beautiful Soup ce are rolul de a analiza si extrage documente de tip HTML si XML. O alta librarie utilizata este Pandas ce am utilizat-o pentru a crea un dataframe, un tabel ce poate fi exportat drept CSV si XLSX (Excel).
   Initial am luat url-urile produselor care m-au interesat si le-am pus in niste variabile, urmatorul pas a fost sa ma folosesc de libraria requests si de metoda get pentru a putea prelua datele transmise de catre server pe paginile respective. Am parsat datele folosind parserul de HTML astfel am putut sa preiau continutul fiecarei pagini. Utilizand inspect am putut sa verific div-ul in care se afla numele produsului si pretul produsului, facand astfel o parsare utilizand metoda find ce are rolul de a extrage doar informatia din interiorul div-ului. Am printat aceste valori si le am introdus intr-un tabel apoi am create un data frame pe care l-am exportat drept fisier cu extensia csv si xlsx. 
    Am creat o conexiune intre proiectul meu ce continue notebook si object storage-ul meu, mai exact cu un nou bucket creat de mine prin API key, ID-ul instantei si numele bucket-ului aceste notiuni putand fi gasite in sectiunea de.
 (cloud-object-storage-so-display-data)
