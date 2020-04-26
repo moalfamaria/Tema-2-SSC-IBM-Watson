@@ -7,11 +7,11 @@ WEB CRAWLER
 
 
 
-  Date de identificare
+  Date de identificare  <br>
 Nume student: Olarescu Stefan <br>
-Universitatea: Politehnica Bucuresti
-Facultatea: Automatica si Calculatoare
-Anul de studii, grupa: anul 4, 342 A3 
+Universitatea: Politehnica Bucuresti <br>
+Facultatea: Automatica si Calculatoare <br>
+Anul de studii, grupa: anul 4, 342 A3  <br>
 
 
  Descrierea aplicaţiei
